@@ -1,0 +1,316 @@
+<resources>
+    <string name="app_name">KHJ_TEST</string>
+    <string name="status_code">200</string>
+
+    <string name="network_not_found">네트워크 연결이 해제되었습니다.\n네트워크 연결 후 다시 앱 실행시켜주세요.</string>
+    <string name="network_not_wifi_connect">네트워크 연결이 해제되었습니다.\nWIFI 연결 화면으로 이동합니다.</string>
+    <string name="login_not_found">로그인에 실패하였습니다.</string>
+
+    <!-- ====================================================================================== -->
+    <!-- Common -->
+    <!-- ====================================================================================== -->
+    <string name="common_download_fail">다운로드 실패</string>
+    <string name="common_count_partial_text">총 %s개</string>
+    <string name="users_count_partial_text">총 %s명</string>
+    <string name="common_count_partial_text_simple">%s개</string>
+    <string name="common_cancel">취소</string>
+    <string name="common_close">닫기</string>
+    <string name="common_system_setting">설정</string>
+    <string name="common_confirm">확인</string>
+    <string name="common_connect">연결</string>
+    <string name="common_total_count">총 %s개</string>
+    <string name="common_retry">다시 시도</string>
+    <string name="common_app_finish">앱종료</string>
+    <string name="command_dialog_login">로그인으로</string>
+    <string name="common_skip">건너뛰기</string>
+    <string name="common_exit">종료</string>
+    <string name="common_go_main">메인으로</string>
+    <string name="common_conference_connect">회의연결</string>
+    <string name="common_conference_cancel">연결취소</string>
+    <string name="common_conference_caller">%s님이 1:1 영상회의를</string>
+    <string name="common_conference_request">요청하셨습니다.</string>
+    <string name="common_error_from_server">서버통신중 에러가 발생하였습니다.</string>
+    <string name="common_error_data_not_found">데이터를 불러오는 데 실패하였습니다.\n다시 시도해주세요.</string>
+    <string name="common_error_data_upload_fail">데이터를 업로드 하는데 실패하였습니다.\n다시 시도해주세요.</string>
+    <string name="common_conference_exited">이미 종료된 회의방입니다.</string>
+    <string name="server_base_url_not_found">BaseUrl Not Found</string>
+    <string name="server_base_url_not_found_text">API URL 잘못되었습니다.\n앱 실행 하실 수 없습니다.</string>
+    <string name="common_call_deny">회의 요청을 거절하였습니다.</string>
+    <string name="common_gesture_zoom">터치패드를 두손가락으로 앞뒤로 밀면\n화면이 확대/축소 됩니다.</string>
+    <string name="common_gesture_volume">터치패드를 한손가락으로 앞뒤로 밀면\n스피커 볼륨이 조절됩니다.</string>
+    <string name="common_gesture_video">터치패드를 두손가락으로 앞뒤로 밀면\n재생중인 영상의 5초 전/후로 이동합니다.</string>
+    <string name="common_gesture_chat">터치패드를 한손가락으로 앞뒤로 밀면\n채팅 내용을 확인하실 수 있습니다.</string>
+    <string name="common_finish_app">앱을 종료하시겠습니까?</string>
+    <string name="start_video_call">영상회의 진행하시겠습니까?</string>
+
+    <string name="common_delete">삭제</string>
+    <string name="common_delete_alert">삭제하시겠습니까?</string>
+    <string name="common_delete_toast">삭제되었습니다.</string>
+
+    <string name="common_save">저장</string>
+    <string name="common_save_toast">저장되었습니다.</string>
+
+    <string name="common_login_info_null">로그인 정보가 없습니다.\n앱 실행 화면으로 이동합니다.</string>
+    <!-- ====================================================================================== -->
+    <!-- 인트로(스플래시) -->
+    <!-- ====================================================================================== -->
+    <string name="splash_version_update_download_confirm">이름이 동일한 파일이 존재합니다.</string>
+    <string name="splash_version_update_download_cover">덮어쓰기</string>
+    <string name="splash_version_update_download_skip">건너뛰기</string>
+
+    <!-- ====================================================================================== -->
+    <!-- Permissions -->
+    <!-- ====================================================================================== -->
+    <string name="permission_explain_message">다음은 원활한 ARON 앱 이용을 위한 필수 권한입니다. 모두 허용해 주시기 바랍니다.</string>
+    <string name="permission_denied_message">필수 접근 권한을 거절하여 앱을 이용할 수 없습니다. 설정으로 이동하여 권한을 허용해 주시기 바랍니다.</string>
+
+    <!-- ====================================================================================== -->
+    <!-- 버전 업데이트 -->
+    <!-- ====================================================================================== -->
+    <string name="new_version_title">새로운 버전으로 다운로드 중입니다.</string>
+    <string name="new_version_down_load_code_text">현재 버전 %s 다운로드 중입니다.</string>
+    <string name="new_version_down_load_code">버전 %s</string>
+
+    <string name="new_version_down_load_finish">다운로드 완료 후 자동으로 업데이트가 시작되며,\n업데이트가 완료되면 앱을 다시 실행해 주십시오.</string>
+    <!--    <string name="new_version_down_load_error_message">업데이트 준비 중 서버에서 파일을 찾을 수 없어 업데이트가 중단되었습니다. 이 오류가 반복되는 경우 관리자에게 문의해 주십시오.</string>-->
+
+    <!-- ====================================================================================== -->
+    <!-- Main -->
+    <!-- ====================================================================================== -->
+    <string name="main_gesture_guide">제스처 가이드</string>
+
+    <string name="main_remote_title">영상회의</string>
+    <string name="main_workflow_title">작업 목록</string>
+    <string name="main_camera_title">카메라</string>
+    <string name="main_scan_camera_title">스캔 촬영</string>
+    <string name="main_contact_title">연락처</string>
+    <string name="main_filebox_title">파일함</string>
+    <string name="main_setting_title">설정</string>
+    <string name="main_option_title">옵션보기</string>
+
+    <!--    <string name="main_cases_sub_title">총 %s건</string>-->
+    <string name="main_remote_sub_title">영상회의\n총 %s건</string>
+    <string name="main_workflow_sub_title">총 %s건</string>
+    <string name="main_camera_sub_title">사진</string>
+    <string name="main_setting_sub_title">버전정보/\n로그아웃</string>
+
+    <string name="gesture_guide_move">이동</string>
+    <string name="gesture_guide_select">선택</string>
+    <string name="gesture_guide_prev">이전으로</string>
+    <string name="gesture_guide_option">옵션 보기</string>
+
+    <string name="gesture_guide_move_sub">Horizontal Touch</string>
+    <string name="gesture_guide_select_sub">Tab</string>
+    <string name="gesture_guide_prev_sub">Vertical Touch</string>
+    <string name="gesture_guide_option_sub">Vertical Touch</string>
+
+    <string name="qr_code_title">로그인을 위해 QR코드 인식이 필요합니다.</string>
+    <string name="qr_code_recognition_failure">올바르지 않은 QR코드입니다. QR코드를 확인해주세요.</string>
+
+    <!-- ====================================================================================== -->
+    <!-- Camera -->
+    <!-- ====================================================================================== -->
+    <string name="camera_take_picture">사진 촬영</string>
+    <string name="camera_delete">삭제</string>
+    <string name="camera_save">저장</string>
+    <string name="camera_transfer">전송</string>
+    <string name="camera_transfer_msg">전송하시겠습니까?</string>
+    <string name="camera_transfer_and_save_file_success">전송되었습니다.</string>
+    <string name="camera_transfer_and_save_file_failure">전송에 실패하였습니다. 다시 시도해주세요.</string>
+    <string name="camera_mode_picture">사진 모드</string>
+    <string name="camera_number_crack">균열 수</string>
+
+    <!-- ====================================================================================== -->
+    <!-- API -->
+    <!-- ====================================================================================== -->
+    <string name="common_network_error_message">서버 연결에 실패하였습니다. 이 오류가 반복되는 경우 관리자에게 문의해 주십시오.</string>
+
+    <!-- ====================================================================================== -->
+    <!-- FileBox -->
+    <!-- ====================================================================================== -->
+    <string name="filebox_folder_title">내 파일함</string>
+    <string name="filebox_folder_count">총 %d개의 폴더</string>
+    <string name="filebox_no_folder">파일이 존재하지 않습니다.</string>
+    <string name="filebox_file_count">총 %d개의 파일</string>
+
+    <string name="filebox_image_pin">고정</string>
+    <string name="filebox_image_unpin">고정해제</string>
+
+    <string name="filebox_image_load_failed">이미지 로드에 실패하였습니다.</string>
+    <string name="filebox_pdf_download">다운로드</string>
+    <string name="filebox_pdf_download_overlap">이미 존재하는 파일이 있습니다.\n파일을 덮어쓰시겠습니까?</string>
+    <string name="filebox_pdf_encrypted">암호화된 파일을 조회할 수 없습니다.</string>
+    <string name="filebox_open_failed">파일을 불러오는데 실패하였습니다. 다시 시도해주세요.</string>
+
+    <string name="video_player_error">재생할 수 없는 동영상파일 입니다.</string>
+    <string name="video_player_play">재생</string>
+    <string name="video_player_pause">일시정지</string>
+    <string name="file_video_length">%02d:%02d:%02d</string>
+    <string name="file_delete_message">삭제하시겠습니까?</string>
+
+    <string name="filebox_remote_save">저장되었습니다.</string>
+    <string name="filebox_check_storage_size_alert">디바이스의 저장공간이 500MB\n이하로 다운로드할 수 없습니다.</string>
+    <string name="filebox_image_loading">섬네일 이미지를 불러오는 중입니다..</string>
+    <string name="filebox_image_pin_toast">고정되었습니다.</string>
+    <string name="filebox_image_unpin_toast">고정 해제되었습니다.</string>
+
+    <!-- ====================================================================================== -->
+    <!-- Work Flow -->
+    <!-- ====================================================================================== -->
+    <string name="workflow_title">작업 목록</string>
+    <string name="workflow_no_item">체크리스트가 존재하지 않습니다.</string>
+    <string name="workflow_gesture_guide">터치패드를 두손가락으로 앞뒤로 밀면\n다음, 이전으로 화면이 이동됩니다.</string>
+    <string name="workflow_step">STEP %d/%d</string>
+    <string name="workflow_Attachment">첨부</string>
+    <string name="workflow_complete_title">제출</string>
+    <string name="workflow_complete">모든 검사가 완료되었습니다.</string>
+    <string name="workflow_finish_alert">체크리스트를 제출하시겠습니까?</string>
+    <string name="workflow_complete_confirm">레포트 제출이 완료되었습니다.\n수고하셨습니다.</string>
+    <string name="workflow_continue">이전에 진행중인 작업이 있습니다.\n이어서 진행하시겠습니까?</string>
+    <string name="workflow_continue_alert">새로 시작 시,\n이전 데이터가 모두 사라집니다.\n새로 시작하시겠습니까?</string>
+    <string name="workflow_restart">새로 시작</string>
+    <string name="workflow_continue_start">이어서 시작</string>
+    <string name="workflow_back_event_title">뒤로가기 하시겠습니까?</string>
+    <string name="workflow_memo_stop">중지</string>
+    <string name="workflow_saved">작업이 임시저장되었습니다.</string>
+    <string name="workflow_start_alert">새로운 작업을 진행하시겠습니까?</string>
+    <string name="workflow_start">시작</string>
+    <string name="checklist_question_count">총 %d개의 문항</string>
+    <!-- ====================================================================================== -->
+    <!-- Remote Video Conference -->
+    <!-- ====================================================================================== -->
+    <string name="remote_call_dialog_title">회의 연결</string>
+    <string name="remote_call_dialog_message">회의에 연결하시겠습니까?</string>
+    <string name="remote_switching_screen">화면 전환</string>
+    <string name="remote_exit">나가기</string>
+    <string name="remote_picture">사진촬영</string>
+    <string name="remote_file_close">닫기</string>
+    <string name="remote_exit_dialog_title">회의 나가기</string>
+    <string name="remote_exit_dialog_message">회의가 진행중입니다.\n회의를 나가시겠습니까?</string>
+    <string name="remote_exit_dialog_message_master">회의 종료 시, 다른 참여자의 세션도 종료됩니다.\n회의를 나가시겠습니까?</string>
+    <string name="remote_start_screen_sharing">화면공유를 시작합니다.</string>
+    <string name="remote_stop_screen_sharing">화면공유를 종료합니다.</string>
+
+    <string name="remote_reception_title">%s님이 영상통화를 요청하셨습니다.</string>
+    <string name="remote_reception_accept">수락</string>
+    <string name="remote_reception_deny">거절</string>
+    <string name="remote_participation_count">참여자(%d)</string>
+    <string name="remote_users_count">총 %d명의 참여자</string>
+    <string name="remote_ended_from_master_title">회의 종료 안내</string>
+    <string name="remote_ended_from_master_message">%s님이 회의를 종료하였습니다.</string>
+    <string name="remote_ended_from_master_out">마스터가 회의를 종료하였습니다.</string>
+
+    <string name="remote_option_capture">사진 촬영</string>
+    <string name="remote_option_video_on">비디오 켜기</string>
+    <string name="remote_option_video_off">비디오 끄기</string>
+    <string name="remote_option_audio_on">오디오 켜기</string>
+    <string name="remote_option_audio_off">오디오 끄기</string>
+    <string name="remote_option_chat">채팅</string>
+    <string name="remote_option_display_change">화면 변경</string>
+    <string name="remote_option_users">참여자</string>
+    <string name="remote_option_files">공유파일</string>
+    <string name="remote_option_finish">회의 나가기</string>
+    <string name="remote_no_shared_file">현재까지 참여자 간 주고받은 파일이 없습니다.</string>
+
+    <string name="remote_no_message">수신한 메시지가 없습니다.</string>
+    <string name="remote_no_file">수신한 파일이 없습니다.</string>
+    <string name="remote_new_file">새로운 파일을 수신하였습니다.</string>
+    <string name="remote_gesture_guide">터치패드를 두손가락으로 앞뒤로 밀면\n스피커 볼륨이 조절됩니다.</string>
+    <string name="video_conference_participation">%s님이 입장하셨습니다.</string>
+    <string name="remote_call_deny_message">%s님이 회의 요청을 거절하였습니다.\n연결이 종료됩니다.</string>
+    <string name="remote_call_deny_timeout_message">%s님이 응답하지 않았습니다.\n연결이 종료됩니다.</string>
+
+    <!-- ====================================================================================== -->
+    <!-- Contact -->
+    <!-- ====================================================================================== -->
+    <string name="contact_group_title">연락처</string>
+    <string name="contact_count">총 %d개의 연락처</string>
+    <string name="contact_is_empty">연락처가 존재하지 않습니다.</string>
+    <string name="contact_conference_connect_title">%s님에게 1:1 회의를 요청하시겠습니까?</string>
+    <string name="remote_contact_status_y">Y</string>
+    <string name="remote_contact_status_o">O</string>
+    <string name="remote_contact_status_n">N</string>
+    <string name="remote_contact_state_unable">회의중</string>
+    <string name="remote_contact_state_off">오프라인</string>
+    <string name="remote_contact_state_available">통화가능</string>
+    <!-- ====================================================================================== -->
+    <!-- Attachment -->
+    <!-- ====================================================================================== -->
+    <string name="attachment_memo_title">메모 작성</string>
+    <string name="attachment_memo_sub">음성메모 녹음</string>
+    <string name="attachment_notepad_title">메모 목록</string>
+    <string name="attachment_notepad_sub">총 %d개의 메모</string>
+    <string name="attachment_camera_title">사진촬영</string>
+    <string name="attachment_camera_sub">사진첨부</string>
+    <string name="attachment_filebox_title">파일함</string>
+    <string name="attachment_filebox_sub">총 %d개의 파일</string>
+
+
+    <string name="attachment_memo_start_record">메모를 시작합니다\n메모하실 내용을 말씀해 주십시오</string>
+    <string name="attachment_memo_rewrite">재작성</string>
+    <string name="attachment_memo_save">저장</string>
+    <string name="attachment_memo_saved">메모가 저장되었습니다.</string>
+    <string name="attachment_memo_empty">입력된 내용이 없어 이전 화면으로 이동합니다.</string>
+
+    <string name="attachment_notepad_list_title">메모 목록</string>
+
+    <string name="attachment_empty">데이터가 존재하지 않습니다.</string>
+
+
+    <!-- ====================================================================================== -->
+    <!-- Remote Video Conference List-->
+    <!-- ====================================================================================== -->
+    <string name="conference_list_title">%s님의 일일 영상회의 목록</string>
+    <string name="conference_list_count">총 %d개의 영상회의</string>
+
+    <string name="conference_list_possible">참여가능</string>
+    <string name="conference_list_end">종료</string>
+    <string name="conference_list_reservation">예약</string>
+    <string name="conference_list_unknown">알 수 없음</string>
+    <string name="conference_list_impossible">참여불가</string>
+    <string name="conference_list_can_not_load">리스트를 불러올 수 없습니다.</string>
+    <string name="conference_list_wrong_room">잘못된 회의입니다.</string>
+    <string name="conference_list_full_room">현재 회의룸 입장 정원이 초과되었습니다. 조금 뒤 다시 시도해주세요.</string>
+    <string name="conference_list_ended">회의가 종료되었습니다.</string>
+    <string name="conference_can_start_only_pc">회의시작은 PC에서만 가능합니다.</string>
+    <string name="conference_not_started">시작되지 않은 회의입니다.</string>
+    <string name="conference_list_impossible_message">해당 계정은 이미 회의룸에 참여중입니다.</string>
+    <string name="conference_list_is_empty">현재 진행가능한 영상회의가 없습니다.</string>
+
+
+    <!-- ====================================================================================== -->
+    <!-- Setting -->
+    <!-- ====================================================================================== -->
+    <string name="setting_title">설정</string>
+    <string name="setting_gesture_guide">제스처 가이드</string>
+    <string name="setting_gesture_guide_on">제스처 가이드 켜기</string>
+    <string name="setting_gesture_guide_off">제스처 가이드 끄기</string>
+    <string name="setting_update">업데이트</string>
+    <string name="setting_update_sub">다운로드 및 설치</string>
+    <string name="setting_logout">로그아웃</string>
+    <string name="setting_logout_sub">앱 로그아웃</string>
+    <string name="setting_app_info">App 정보</string>
+    <string name="setting_app_version_current">현재버전 v%s</string>
+    <string name="setting_app_version_latest">최신버전 v%s</string>
+    <string name="setting_app_version_full">%s / %s</string>
+    <string name="setting_exposed_gesture_alarm">제스처 가이드가 켜졌습니다.</string>
+    <string name="setting_unexposed_gesture_alarm">제스처 가이드가 꺼졌습니다.</string>
+
+    <string name="setting_latest_version_alarm">현재 버전은 최신 버전입니다.</string>
+    <string name="setting_update_alert_message">업데이트 진행 시 앱이 종료됩니다. 업데이트 하시겠습니까? </string>
+    <string name="setting_logout_alert_message">로그아웃 하시겠습니까?</string>
+
+    <!-- ====================================================================================== -->
+    <!-- Option -->
+    <!-- ====================================================================================== -->
+    <string name="option_close">닫기</string>
+    <string name="option_menu_finish_app">앱종료</string>
+    <string name="option_menu_go_main">메인으로</string>
+    <string name="option_menu_gesture_guide">제스처</string>
+    <string name="option_delete">삭제</string>
+    <string name="option_menu_go_list">목록</string>
+    <string name="option_save">저장</string>
+    <string name="option_menu_stop_checklist">작성종료</string>
+
+    <string name="video_size_value">%d*%d\nFps : %d\nCodec : %s</string>
+</resources>

@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+	package
+		ADDED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:11-41
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+		ADDED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+	android:versionCode
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+		ADDED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml:17:1-43
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+uses-sdk
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+		ADDED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+		ADDED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml
+		INJECTED from /Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/AndroidManifest.xml

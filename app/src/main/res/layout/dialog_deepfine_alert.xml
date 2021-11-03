@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="deepfineAlertDialog"
+            type="go.glass.realwear.hyundai.test.dialog.DeepFineAlertDialog"/>
+
+        <variable
+            name="content"
+            type="String" />
+
+        <variable
+            name="cancelText"
+            type="String" />
+
+        <variable
+            name="successText"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:background="@drawable/style_dialog_deepfine_alert_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingTop="34dp"
+            android:paddingBottom="34dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@{content, default=본사연결이종료됩니다정말종료하세깄습니까세줄가이드세줄가이드}"
+            android:textColor="@color/_000000"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:maxLines="3"/>
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/_979797"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvContent" />
+
+        <View
+            android:id="@+id/viewLine1"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/_dddddd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvContent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvOk"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:onClick="@{()->deepfineAlertDialog.actionS()}"
+            android:text="@{successText, default=SUCC}"
+            android:textColor="@color/_000000"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/viewLine1"
+            app:layout_constraintTop_toBottomOf="@+id/tvContent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:onClick="@{()->deepfineAlertDialog.actionC()}"
+            android:text="@{cancelText, default=FAIL}"
+            android:textColor="@color/_000000"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvContent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvOne"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:onClick="@{()->deepfineAlertDialog.actionS()}"
+            android:text="@{successText, default=SUCC}"
+            android:textColor="@color/_000000"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvContent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

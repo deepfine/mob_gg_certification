@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.property("compile_sdk")
+
+    defaultConfig {
+        minSdkVersion rootProject.property("min_sdk")
+        targetSdkVersion rootProject.property("target_sdk")
+        versionCode rootProject.property("version_code")
+        versionName rootProject.property("version_name")
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // lombok
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    // WEB-RTC
+    implementation 'org.webrtc:google-webrtc:1.0.32006'
+}

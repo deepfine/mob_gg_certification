@@ -1,0 +1,4 @@
+include ':Gesture'
+include ':CustomWebrtc'
+include ':app'
+rootProject.name = "TEST"

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/junghyun96/AndroidStudioProjects/Project/08. gg_certification/11.ARON_APP_TEST/Gesture/src/debug/jniLibs"/></dataSet></merger>

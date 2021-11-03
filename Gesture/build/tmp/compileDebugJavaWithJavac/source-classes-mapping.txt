@@ -1,0 +1,8 @@
+com/example/glass/ui/GestureTransfer.java
+ com.example.glass.ui.GestureTransfer
+com/example/glass/ui/BuildConfig.java
+ com.example.glass.ui.BuildConfig
+com/example/glass/ui/GlassGestureDetector.java
+ com.example.glass.ui.GlassGestureDetector
+ com.example.glass.ui.GlassGestureDetector$Gesture
+ com.example.glass.ui.GlassGestureDetector$OnGestureListener
